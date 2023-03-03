@@ -1,7 +1,7 @@
 
 /* Your CSS Code here. */
 
-.container{
+/* .container{
 	display:flex;
     flex-direction:row;
 	flex-flow:row wrap;
@@ -21,4 +21,25 @@
 #box2{
 	background-color:blue;
 	order:2;
+} */
+.container{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+}
+#box1{
+	background-color:red;
+	padding-right:50px;
+	padding-bottom:50px;
+	
+}
+.box{
+	background-color:green;
+	padding-right:50px;
+	padding-bottom:50px;
+}
+#box2{
+	background-color:blue;
+	padding-right:50px;
+	padding-bottom:50px;
 }
