@@ -7,8 +7,8 @@
 }
 .container{
 	display:flex;
-	flex-direction:row;
-	flex:flow;
+    flex-direction:row;
+	flex-flow:row wrap;
 	justify_content:space-between;
 }
 .box{
