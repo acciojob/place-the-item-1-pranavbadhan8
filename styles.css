@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	display:flex;
+	flex-direction:row;
+	flex:flow;
+	justify_content:space-between;
+}
+.box{
+	height:100px;
+	width:100px;
+	background-color:green;
+	font-size:40px;
+	margin:0px 2px;
+}
+#box1{
+   background-color: red;
+	order:1;
+}
+#box2{
+	background-color:blue;
+	order:2;
+}
