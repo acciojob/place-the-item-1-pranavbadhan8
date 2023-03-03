@@ -43,7 +43,7 @@
 	padding-right:50px;
 	padding-bottom:50px;
 } */
-.container{
+.holder{
 	margin:0px;
 	display:flex;
 	justify-content:space-between;
